@@ -42,8 +42,8 @@ function setup() {
   canvas.parent("farmyard");
 
   playButton = createButton("Start Game");
-  playButton.position(CENTER);
-  playButton.style("position", "relative");
+  playButton.position(CENTER, 500);
+  playButton.style("position", "fixed");
   playButton.style("background-color", "#F0EDC9");
   playButton.style("color", "#38680a");
   playButton.style("font-size", "20px");
